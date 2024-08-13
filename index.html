@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The First gear</title>
+  <!-- css link-->
+  <link rel="stylesheet" href="css/style.css" />
+  <!--icons-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+  <!--Carusol linker CSS-->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="nav container">
+      <a href="#" class="logo">THE FIRST GEAR</a>
+      <!--NAv-->
+      <div class="navbar">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#bikes" class="nav-link">Bikes</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#reviews" class="nav-link">Reviews</a>
+        <!--mobile sign up button-->
+        <a href="#" class="mobile-sign-up"></a>
+      </div>
+      <!--sign up button-->
+      <a href="#" class="sign-up">Sign up</a>
+      <!--menu icon-->
+      <div class="menu-icon" id="menu-icon">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+  </header>
+  <!--home-->
+  <section class="home" id="home">
+    <h1 class="home-title"> Harley Davidson</h1>
+    <div class="home-content container">
+      <div class="home-data">
+        <div class="home-box border-home">
+          <h3 style="color: orange">Electric motor</h3>
+          <h2>Revelation</h2>
+        </div>
+        <div class="home-box border-home">
+          <h3 style="color: orange">Torque</h3>
+          <h2>86 ft lb</h2>
+        </div>
+        <div class="home-box border-home">
+          <h3 style="color: orange">Horsepower</h3>
+          <h2>105 Hp/x78 Kw</h2>
+        </div>
+      </div>
+      <img src="images/home.png" alt="" class="home-img">
+      <div class="helmet-box">
+        <img src="images/helmet.png" alt="">
+        <a href="#">Helmet <i class="ri-arrow-right-up-line"></i></a>
+      </div>
+    </div>
+    <div class="home-btn">
+      <a href="#" class="dealer-btn">
+        <i class="ri-compass-3-line"></i>Find a dealer</a>
+      <a href="#" class="ride-btn">
+        <i class="ri-motorbike-fill"></i>Test Ride</a>
+
+    </div>
+  </section>
+  <!--bikes-->
+  <section class="bikes container" id="bikes">
+    <!--heading-->
+    <div class="heading">
+      <span>LAST MINUTE OFFERS</span>
+      <h2> Motorcycle & scooters for rent</h2>
+    </div>
+    <div class="bikes-content"></div>
+  </section>
+  <!--work-->
+  <section class="work" id="work">
+    <!--heading-->
+    <div class="heading container">
+      <span> ONE-OF-A-KIND MOTORCYCLE RENTALS</span>
+      <h2>Search, Compare, Reserve</h2>
+    </div>
+    <div class="work-container container">
+      <!--box 1-->
+      <div class="work-box">
+        <i class="ri-award-fill"></i>
+        <h3 class="work-title">Find the right bikes for your journey</h3>
+        <p class="work-description">
+          Enter a location and date to browse and compare thousands of
+          motorbikes available to rent in over 300 cities.
+        </p>
+      </div>
+      <!--box 2-->
+      <div class="work-box">
+        <i class="ri-visa-fill"></i>
+        <h3 class="work-title"> Affordable prices</h3>
+        <p class="work-description">
+          Our prices are guaranteed equal or lower than you can book on
+          arrival! cancel for free up to 24 hours before.
+        </p>
+      </div>
+      <!--box 3-->
+      <div class="work-box">
+        <i class="ri-riding-line"></i>
+        <h3 class="work-title">Have a safe and memorable journey</h3>
+        <p class="work-description">
+          Bikes will be delivered or pick it up from the location.
+          Show coupons, get the keys, hit the road.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!--destination-->
+  <div class="main-carousel" id="services">
+    <div class="cell">
+      <div class="text-overlay">Special bikes for your special trips</div>
+      <img src="https://i.pinimg.com/550x/5b/e3/91/5be391258bb18d986c977fd45ae755dd.jpg">
+    </div>
+    <div class="cell">
+      <div class="text-overlay">Plan trips with gang.</div>
+      <img
+        src="https://www.team-bhp.com/forum/attachments/travelogues/1674947d1689813455t-kawasakis-triumphs-ride-vizag-araku-valley-photoblog-1800-km-ride-vizag-arakku-2.jpeg">
+    </div>
+    <div class="cell">
+      <div class="text-overlay">5 rental offices in vizag.</div>
+      <img
+        src="https://th-i.thgim.com/public/news/cities/Visakhapatnam/zboaep/article35181502.ece/alternates/FREE_1200/07-VZ-TOURISM">
+    </div>
+    <div class="cell">
+      <div class="text-overlay">Launching soon in vijaywada</div>
+      <img
+        src="https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-9p7sib989iv43l5ik363fav9b7-20210626233053.Medi.jpeg">
+    </div>
+    <div class="cell">
+      <div class="text-overlay">Have a safe and happy rides with first gear.</div>
+      <img
+        src="https://img.freepik.com/premium-photo/group-friends-motorcycle-touring-road-trip-countryside-touring-motorcycles-rural-roads_257087-284.jpg">
+    </div>
+  </div>
+
+  <!--reviews-->
+  <section class="reviews" id="reviews">
+    <!--heading-->
+    <div class="heading container">
+      <span>Testimonals</span>
+      <h2>Hear it from the customers</h2>
+    </div>
+    <div class="review-container container">
+      <!--Box 1-->
+      <div class="rev-box">
+        <div class="stars">
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-half-fill"></i>
+        </div>
+        <p>
+          Spotless rental scooter, great customer service and attention to
+          detail. I'll be using them again next time.
+        </p>
+        <div class="profile">
+          <img src="images/review1.jpg" alt="">
+          <div class="profile-text">
+            <h3 class="name">Arun kumar</h3>
+            <span> 2 january 2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rev-box">
+        <div class="stars">
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-half-fill"></i>
+        </div>
+        <p>
+          Spotless rental scooter, great customer service and attention to
+          detail. I'll be using them again next time.
+        </p>
+        <div class="profile">
+          <img src="images/review2.jpg" alt="">
+          <div class="profile-text">
+            <h3 class="name">Mahesh rao</h3>
+            <span> 17 February 2024</span>
+          </div>
+        </div>
+      </div>
+      <div class="rev-box">
+        <div class="stars">
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+        </div>
+        <p>
+          Spotless rental scooter, great customer service and attention to
+          detail. I'll be using them again next time.
+        </p>
+        <div class="profile">
+          <img src="images/review3.jpg" alt="">
+          <div class="profile-text">
+            <h3 class="name">Nithya kumari</h3>
+            <span> 25 march 2024</span>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!--footer-->
+  <section class="footer">
+    <div class="footer-container container">
+      <div class="footer-box">
+        <a href="#" class="logo">THE FIRST GEAR</a>
+        <p> Book your bike now !!!</p>
+        <div class="social">
+          <a href="#"><i class="ri-instagram-line"></i></a>
+          <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+          <a href="#"></i><i class="ri-twitter-x-fill"></i></a>
+        </div>
+      </div>
+      <div class="footer-box">
+        <h3>About us</h3>
+        <a href="">Company</a>
+        <a href="">Careers</a>
+        <a href="">Updates</a>
+        <a href="">Invest</a>
+      </div>
+      <div class="footer-box">
+        <h3>Bikes</h3>
+        <a href="">Scooter</a>
+        <a href="">Mountainers</a>
+        <a href="">E-vehicles</a>
+        <a href="">Sports</a>
+      </div>
+      <div class="footer-box">
+        <h3>Offers</h3>
+        <a href="">Combo rents</a>
+        <a href="">Shipping</a>
+        <a href="">Repairs</a>
+        <a href="">Exchanges</a>
+      </div>
+    </div>
+  </section>
+  <!--copyright-->
+  <p class="copyright"> &#169; All rights reserved || Girish petla</p>
+  <!--link js-->
+  <!--swiper JS-->
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script type="text/javascript">
+    $('.main-carousel').flickity({
+      // options
+      cellAlign: 'center',
+      weapAround: true,
+      freesScroll: true
+    });
+  </script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
